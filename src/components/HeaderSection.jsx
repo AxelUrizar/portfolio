@@ -3,7 +3,7 @@ import { SocialsButton } from "./SocialsButton";
 export function HeaderSection () {
   return (
     <header className="flex items-center gap-8">
-      <img className="w-36 h-36 rounded-full object-cover shadow-2xl shadow-zinc-600 dark:shadow-gray-900" src="https://imgs.search.brave.com/LLwzjZEFfi0vIRC1NBKIavvyes2g4Aw5CjK-GFQQNLE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTI2/ODEwMjk4L2VzL2Zv/dG8vbnVldmEteW9y/ay1jaXVkYWQtbWVu/dGUtZXN0YWRvLWNv/bmNlcHRvLWltYWdl/bi5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9b1ZnamlVT19m/Sjd5cVR0ZDZZTjVt/RGo4QzVwVURZUHIy/T21ReUQyY185TT0" />
+      <img className="w-36 h-36 rounded-full object-contain bg-white shadow-2xl shadow-zinc-600 dark:shadow-gray-900" src="https://i.pinimg.com/564x/ec/97/1a/ec971a06ff83ed82e0a8e3b48d17d75c.jpg" />
       <div>
         <h1 className="text-5xl font-bold">Axel Urizar</h1>
         <p className='mb-3'>Soy un apasionado desarrollador web fullstack con especial gusto por el frontend.</p>

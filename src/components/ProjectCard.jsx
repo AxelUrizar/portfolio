@@ -4,9 +4,9 @@ import { githubIcon } from "../assets/customLinks"
 
 export function ProjectCard ({ imgSrc, name, description, note, tecnologies, link, live }) {
   return (
-    <div className="flex gap-4 dark:hover:bg-gray-700 hover:bg-zinc-200 transition p-6">
-      <img className="w-44 h-44 p-3 md:w-96 md:h-56 rounded-3xl object-contain shadow-xl drop-shadow-2xl border-solid border-2 border-gray-500 bg-gray-300" src={imgSrc} alt="project-image" />
-      <div className="flex-grow flex flex-col justify-between items-start gap-3">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 cursor-pointer dark:hover:bg-gray-700 hover:bg-zinc-200 transition p-6 rounded-3xl">
+      <img className="p-1 md:w-96 md:h-56 rounded-3xl shadow-xl drop-shadow-2xl border-solid border-2 border-gray-500 bg-gray-300" src={imgSrc} alt="project-image" />
+      <div className="flex flex-col justify-between items-start gap-3">
         <div>
           <h3 className="text-xl font-bold">{name}</h3>
           <p>{description}</p>

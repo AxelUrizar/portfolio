@@ -7,15 +7,13 @@ import { Contacto } from './components/Contacto.jsx'
 
 import { theme } from './hooks/theme.js'
 
-import './App.css'
-
 function App() {
   const { darkTheme, handleThemeChange } = theme()
 
   return (
     <main className="dark:bg-gray-800 bg-zinc-100 m-auto transition">
       <section className='dark:text-zinc-100 text-zinc-700 max-w-4xl px-6 py-12 relative m-auto'>
-        <button className="absolute right-0 top-5" onClick={handleThemeChange}>{darkTheme == true ? <SunSVG /> : <MoonSVG />}</button>
+        <button className="absolute right-5 top-5" onClick={handleThemeChange}>{darkTheme == true ? <SunSVG /> : <MoonSVG />}</button>
         <HeaderSection />
         <hr className='my-16 dark:border-gray-600 border-2 border-gray-300 rounded-xl transition' />
         <Projectos />
